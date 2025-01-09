@@ -24,3 +24,19 @@ const myFunction = function()
     
 }
 console.log(myFunction);
+
+
+// ----------------------------------------------------------------------------
+
+//  MEMORY
+// 2 TYPES ; stack and heap
+// stack is used in primitive datatypes ; heap is used in non primitive datatypes
+
+let  myyoutubename = "traintraveller"
+
+let anothername=myyoutubename
+
+anothername="chai aur code"
+
+console.log(myyoutubename);
+console.log(anothername);
